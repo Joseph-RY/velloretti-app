@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} max-w-[1440px] antialiased`}
       >
-        <header className="md:max-w-[1900px] w-[90%] m-auto flex md:justify-between justify-center items-center">
+        <header className="md:max-w-[1400px] w-[90%] m-auto flex md:justify-between justify-center items-center">
           <div className="flex items-center md:gap-10 gap-5 md:flex-row flex-col md:my-0 my-5">
             <Image src={logo} alt="hello" className="w-[220px]" />
             <ul className="flex gap-5 text-xl">
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         {children}
-        <footer className="max-w-[1920px] m-auto">
+        <footer className="max-w-[1400px] m-auto">
           <div className="bg-[#414141] md:h-[150px] md:flex-row flex-col flex items-center justify-center md:gap-20 gap-4 md:py-0 py-5">
             <p className="text-[17px] text-white md:text-start text-center">
               Ready to take the Electric Ivy or Ace for a spin? Electric test
