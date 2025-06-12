@@ -4,7 +4,7 @@ This is my **first project using Next.js**.
 
 The project is about showcasing a **bike product**, including its features and specifications.
 
-Check out the live demo [here](https://first-project-with-next-js-kohl.vercel.app/)
+Check out the live demo [HERE](https://velloretti-app.vercel.app/)
 
 More updates coming soon!
 
